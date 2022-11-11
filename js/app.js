@@ -56,10 +56,10 @@ function crearGaleria(){
         const imges = document.createElement('div') //crea una etiqueta con ..
         imges.innerHTML= `
         <picture>
-        <source srcset='../build/img/${i}.avif' type=image/avif>
-        <source srcset='../build/img/${i}.webp' type=image/webp>
-        <source srcset='../build/img/${i}.jpg' type=image/jpg>
-        <img loading='lazy' width='200' heigth='300' src='../build/img/${i}.jpg' alt='Imagen'>
+        <source srcset='../img/${i}.avif' type=image/avif>
+        <source srcset='../img/${i}.webp' type=image/webp>
+        <source srcset='../img/${i}.jpg' type=image/jpg>
+        <img loading='lazy' width='200' heigth='300' src='../img/${i}.jpg' alt='Imagen'>
         </picture>
         `;
 
@@ -77,10 +77,10 @@ function mostrarImg(image){
     const imges = document.createElement('picture') //crea una etiqueta con ..
     imges.innerHTML= ` 
     <picture>
-    <source srcset='../build/img/${image}.avif' type=image/avif>
-    <source srcset='../build/img/${image}.webp' type=image/webp>
-    <source srcset='../build/img/${image}.jpg' type=image/jpg>
-    <img loading='lazy' width='200' heigth='300' src='../build/img/${image}.jpg' alt='Imagen'>
+    <source srcset='../img/${image}.avif' type=image/avif>
+    <source srcset='../img/${image}.webp' type=image/webp>
+    <source srcset='../img/${image}.jpg' type=image/jpg>
+    <img loading='lazy' width='200' heigth='300' src='../img/${image}.jpg' alt='Imagen'>
     `; //insercion de html de contenido
 
 
